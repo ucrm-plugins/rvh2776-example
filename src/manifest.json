@@ -1,0 +1,28 @@
+{
+    "version": "1",
+    "information": {
+        "name": "rvh2776-example",
+        "displayName": "Plugin Example",
+        "description": "An example plugin to demonstrate making server-side calls from the client-side.",
+        "url": "",
+        "version": "1.0.0",
+        "ucrmVersionCompliancy": {
+            "min": "2.16.0",
+            "max": null
+        },
+        "unmsVersionCompliancy": {
+            "min": "1.0.0-beta.8",
+            "max": null
+        },
+        "author": "Ryan Spaeth"
+    },
+    "menu" :[
+        {
+            "label": "Generated Image",
+            "type": "client",
+            "target": "iframe",
+            "parameters": {
+            }
+        }
+    ]
+}
